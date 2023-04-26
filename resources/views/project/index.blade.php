@@ -34,9 +34,7 @@
                 <td>{{ $project->client }}</td>
                 <td><a href="{{ route('projects.show', $project) }}">{{ $project->url }}</a></td>
                 <td>
-                    <a href="{{ route('projects.edit', $project) }}" class="btn btn-secondary btn-sm">edit</a>
-                    <a href="" class="btn btn-secondary btn-sm">delete</a>
-                    <a href="" class="btn btn-secondary btn-sm">restore</a>
+                    <a href="{{ route('projects.edit', $project) }}" class="btn btn-warning btn-sm">edit</a>
                 </td>
             </tr>
                 
